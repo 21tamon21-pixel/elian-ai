@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Elian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">✳</span>
+        <span>Elian</span>
+      </div>
+
+      <div class="usage" id="usage">0 / 900</div>
+    </header>
+
+    <section class="centre">
+      <div class="orb" id="orb">
+        <div class="rays" id="rays"></div>
+        <div class="core">✳</div>
+      </div>
+
+      <div class="state" id="state">Ready</div>
+      <div class="hint" id="hint">Enable the microphone to talk to Elian.</div>
+    </section>
+
+    <footer class="bottom">
+      <button id="mic" class="mic-button" title="Start or stop listening">
+        <span id="micIcon">🎙</span>
+      </button>
+      <div id="micLabel">START LISTENING</div>
+    </footer>
+
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
